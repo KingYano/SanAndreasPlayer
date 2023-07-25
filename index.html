@@ -8,15 +8,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <!-- Link icons font -->
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"/>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <!-- Link style sheet -->
     <link rel="stylesheet" href="style.css">
     <title>SanAndreas Player</title>
 </head>
 
 <body>
-    <i class="ph-bold ph-smiley"></i>
+    <div class="background">
+        <img id="bg-img" src="assets/img/img-hustlerattitude.jpg" alt="Background image for the Hustler Attitude song">
+    </div>
 
+    <div class="container">
+        <div class="player-img">
+            <img id="cover" class="active" src="assets/img/img-hustlerattitude.jpg" alt="Cover image for the music player for the Hustler Attitude song">
+        </div>
+
+        <h2 id="music-title">Test</h2>
+        <h3 id="music-artist">Test 2</h3>
+
+        <div id="player-progress" class="player-progress">
+            <div id="progress" class="progress"></div>
+            <div class="music-duration">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-controls">
+            <i class="ph ph-rewind previous-button" title="Previous"></i>
+            <i class="ph ph-play play-button" title="Play"></i>
+            <i class="ph ph-fast-forward next-button" title="Next"></i>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 
