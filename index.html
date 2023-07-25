@@ -16,16 +16,16 @@
 
 <body>
     <div class="background">
-        <img id="bg-img" src="assets/img/img-hustlerattitude.jpg" alt="Background image for the Hustler Attitude song">
+        <img id="bg-img" src="" alt="Background image for the current song">
     </div>
 
     <div class="container">
         <div class="player-img">
-            <img id="cover" class="active" src="assets/img/img-hustlerattitude.jpg" alt="Cover image for the music player for the Hustler Attitude song">
+            <img id="cover" class="active" src="" alt="Cover image for the current song">
         </div>
 
-        <h2 id="music-title">Test</h2>
-        <h3 id="music-artist">Test 2</h3>
+        <h2 id="music-title"></h2>
+        <h3 id="music-artist"></h3>
 
         <div id="player-progress" class="player-progress">
             <div id="progress" class="progress"></div>
@@ -36,9 +36,9 @@
         </div>
 
         <div class="player-controls">
-            <i class="ph ph-fill ph-rewind previous-button" title="Previous"></i>
-            <i class="ph ph-fill ph-play play-button" title="Play"></i>
-            <i class="ph ph-fill ph-fast-forward next-button" title="Next"></i>
+            <i id="prev" class="ph ph-fill ph-rewind previous-button" title="Previous"></i>
+            <i id="play" class="ph ph-fill ph-play play-button" title="Play"></i>
+            <i id="next" class="ph ph-fill ph-fast-forward next-button" title="Next"></i>
         </div>
     </div>
     <script src="index.js"></script>
