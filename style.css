@@ -155,7 +155,7 @@ h3 {
 
 .ph {
     font-size: 30px;
-    color: #6666;
+    color: rgba(102, 102, 119, 0.892);
     margin-right: 30px;
     cursor: pointer;
     user-select: none;
@@ -169,4 +169,10 @@ h3 {
 .ph:hover {
     filter: brightness(40%);
     -webkit-filter: brightness(40%);
+}
+
+.play-button {
+    font-size: 42px;
+    position: relative;
+    top: 5px;
 }
