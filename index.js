@@ -97,7 +97,7 @@ function updateProgressBar(){
 
 function setProgressBar (e) {
     const width = playerProgress.clientWidth;
-    const clickX =e.offsetX;
+    const clickX = e.offsetX;
     music.currentTime = (clickX / width) * music.duration;
 }
 
